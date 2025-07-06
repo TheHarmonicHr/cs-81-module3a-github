@@ -19,3 +19,7 @@ function askReflectionQuestion() {
   ];
     return prompts[Math.floor(Math.random() * prompts.length)];
 }
+console.log(greet("Harmony"));
+console.log(addEntry("Wrote my first JavaScript functions today!"));
+console.log(summarizeMood("curious"));
+console.log(listGratitudes(["matcha", "internet", "games"]));
