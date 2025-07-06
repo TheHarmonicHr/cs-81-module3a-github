@@ -1,4 +1,21 @@
 // Greet a user by name
 function greet(name) {
-  return "Hello, " + name + "!";
+    return "Hello, " + name + "!";
+    }
+function addEntry(entry) {
+    return "New journal entry added: " + entry;
+    }
+function summarizeMood(mood) {
+    return "Today you're feeling: " + mood + ". Take note.";
+    }
+function listGratitudes(gratitudes) {
+    return "Grateful for: " + gratitudes.join(", ");
+    }
+function askReflectionQuestion() {
+  const prompts = [
+    "What challenged you today?",
+    "What are you proud of?",
+    "What do you want to improve tomorrow?"
+  ];
+    return prompts[Math.floor(Math.random() * prompts.length)];
 }
